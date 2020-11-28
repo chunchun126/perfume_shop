@@ -1,0 +1,37 @@
+.banner {
+  height: calc(100vh - 56px);
+  &__title {
+    @include mobile {
+      font-size: 32px;
+    }
+  }
+  &__txt {
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  .custom-btn {
+    font-size: 28px;
+  }
+}
+
+// square
+.square {
+  &__img {
+    padding-top: 100%;
+  }
+  &__img-lg {
+    padding-top: 195%;
+  }
+  .custom-btn {
+    font-size: 20px;
+  }
+}
+
+// subscribe
+.subscribe {
+  padding-top: 312px;
+  &__input {
+    border: 2px solid $primary;
+  }
+}

@@ -1,0 +1,10 @@
+.position-md-absolute{
+  @include media-breakpoint-up(md) {
+    position: absolute;
+  }
+}
+.right-md-0{
+  @include media-breakpoint-up(md) {
+    right: 0;
+  }
+}

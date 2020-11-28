@@ -1,0 +1,12 @@
+.page-item.active .page-link {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    bottom: 6px;
+    left: 8px;
+    background-color: $primary;
+  }
+}
