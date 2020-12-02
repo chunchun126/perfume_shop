@@ -59,28 +59,19 @@
   transition: .2s;
 }
 .toggler-bar-top {
-  top: 15px;
-  transform: rotate(45deg);
+  top: 5px;
 }
 .toggler-bar-middle {
   top: 16px;
-  display: none;
 }
 .toggler-bar-bottom {
+  top: 27px;
+}
+.toggler-bar-top-rotate {
+  top: 15px;
+  transform: rotate(45deg);
+}
+.toggler-bar-bottom-rotate {
   top: 15px;
   transform: rotate(-45deg);
-}
-
-.navbar-toggler.collapsed {
-  .toggler-bar-middle {
-    display: block;
-  }
-  .toggler-bar-top {
-    top: 5px;
-    transform: rotate(0deg);
-  }
-  .toggler-bar-bottom {
-    top: 27px;
-    transform: rotate(0deg);
-  }
 }
