@@ -10,4 +10,11 @@ $(window).scroll(function (e) {
     $('.navbar').removeClass('bg-white');
   }
 });
+$(document).ready(function () {
+  $('.navbar-toggler').on('click', function () {
+    $('.toggler-bar-top').toggleClass('toggler-bar-top-rotate');
+    $('.toggler-bar-bottom').toggleClass('toggler-bar-bottom-rotate');
+    $('.toggler-bar-middle').toggleClass('d-none');
+  });
+});
 //# sourceMappingURL=all.js.map
